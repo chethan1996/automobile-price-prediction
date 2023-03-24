@@ -1,8 +1,9 @@
 Steps:
+Dev version
 1. docker-compose -f docker-compose.dev.yml build
 2. docker-compose -f docker-compose.dev.yml up
 
-Prod
+Prod version
 1. docker-compose -f docker-compose.yml build
 2. docker-compose -f docker-compose.yml up
 3. docker push username/repo
